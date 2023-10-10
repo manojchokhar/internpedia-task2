@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+}
+
+.main-background{
+    height: 650px;
+    width: 100%;
+    float: left;
+    background-image: url(mainbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.log-in-form{
+    height: 520px;
+    width: 330px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+@media(max-width:667px){
+    .log-in-form{
+        margin-left: 80px;
+    }
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.log-info{
+    padding: 40px;
+}
+.log-info label{
+    color: black;
+    font-weight: 200;
+}
+.log-info i{
+    padding-right: 10px;
+}
+.log-info input{
+    height: 35px;
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    font-size: 17px;
+    border-bottom: 1px solid rgb(154, 151, 151);
+}
+.log-info input:focus{
+    outline: none;
+}
+.pass-section{
+    margin-top: 20px;
+}
+.pass-section a{
+    text-decoration: none;
+    color:rgb(35, 35, 35);
+    font-size: 15px;
+    margin-left: 120px;
+}
+.log-btn{
+    margin-left: 10%;
+}
+.log-btn button{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 110px;
+    padding-right: 110px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgba(164, 0, 246, 0.815) , rgba(240, 0, 253, 0.483));
+    color: #ffff;
+}
+.sign-option{
+    margin-top: 20px;
+}
+.sign-option p{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(140, 140, 140);
+}
+.f-circle{
+    height: 50px;
+    width: 50px;
+    float: left;
+    position: absolute;
+    left: 80px;
+    margin-top: 10px;
+    background-color: rgb(1, 1, 161);
+    border-radius: 50%;
+    text-align: center;
+}
+.f-circle i{
+    margin-top: 7.8px;
+    color: #fff;
+    font-size: 33px;
+}
+.tw-circle{
+    height: 50px;
+    width: 50px;
+    float: left;
+    position: absolute;
+    left: 140px;
+    margin-top: 10px;
+    background-color:rgb(0, 183, 255);
+    border-radius: 50%;
+    text-align: center;
+
+}
+.tw-circle i{
+    margin-top: 7.8px;
+    color: #fff;
+    font-size: 33px;
+}
+.g-circle{
+    height: 50px;
+    width: 50px;
+    float: left;
+    position: absolute;
+    left: 200px;
+    margin-top: 10px;
+    background-color: rgb(229, 3, 3);
+    border-radius: 50%;
+    text-align: center;
+
+}
+.g-circle i{
+    margin-top: 7.8px;
+    color: #fff;
+    font-size: 33px;
+}
+.l-sign-op{
+   margin-top: 90px;
+   text-align: center;
+   font-size: 14px;
+   
+}
+.l-sign-op p{
+    padding-bottom: 5px;
+    color: rgb(140, 140, 140);
+}
+.l-sign-op a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
